@@ -57,7 +57,7 @@ $(document).ready(function () {
         }
         $.ajax({
             method: "POST",
-            url: `${url}/api/v1/items`,
+            url: `${url}api/v1/items`,
             data: formData,
             contentType: false,
             processData: false,
